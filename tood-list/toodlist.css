@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.box {
+  width: 50%;
+  margin: 100px auto;
+}
+.box .input input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  text-indent: 1em;
+}
+.box .btns {
+  float: right;
+}
+.box .btns .button {
+  border-radius: 3px;
+  color: #333;
+}
+.box .list {
+  clear: both;
+  border: 1px solid #fff;
+}
+.box .list li {
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+}
+.box .list li p {
+  display: inline-block;
+}
+.box .list li span:first-child {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+.box .list li span:last-child {
+  float: right;
+}
+.mar-t-5 {
+  margin-top: 5px;
+}
+.bg {
+  border-radius: 5px;
+  background: #f0f;
+  color: #fff;
+}
